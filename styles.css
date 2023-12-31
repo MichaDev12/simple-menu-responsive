@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.menu {
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+  background-color: #4d70b4;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo h1 {
+  color: white;
+  font-weight: bold;
+}
+
+.logo img {
+  width: 80px;
+  margin: 5px 15px;
+}
+
+.section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin-left: auto;
+  margin-right: 15px;
+}
+
+.section a {
+  color: white;
+  display: flex;
+  text-decoration: none;
+  font-size: larger;
+  font-weight: bold;
+}
